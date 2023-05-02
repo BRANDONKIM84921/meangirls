@@ -23,7 +23,7 @@ give_candygrams <- function(person, number,
 
   if (is.null(extra_message)) {
 
-    extra_message <- add_commentary(person, number)
+    return(add_commentary(person, number))
 
   }
 
